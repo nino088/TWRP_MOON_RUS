@@ -5,9 +5,6 @@
 # Device Path
 DEVICE_PATH := device/xiaomi/moon
 
-TARGET_RECOVERY_DEVICE_DIRS := \
-    $(DEVICE_PATH) \
-
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -49,7 +46,7 @@ TARGET_BOARD_PLATFORM := mt6768
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 
 BOARD_VENDOR_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_BASE := 0x40078000
