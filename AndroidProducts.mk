@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_moon.mk
+    $(LOCAL_DIR)/twrp_moon.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_moon-user \
-    omni_moon-userdebug \
-    omni_moon-eng
+    twrp_moon-user \
+    twrp_moon-userdebug \
+    twrp_moon-eng
