@@ -86,9 +86,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# MTK plpath utils
 PRODUCT_PACKAGES += \
-    create_pl_dev \
-    create_pl_dev.recovery
+    mtk_plpath_utils \
+    mtk_plpath_utils.recovery
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
